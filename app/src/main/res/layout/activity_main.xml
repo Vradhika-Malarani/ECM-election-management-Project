@@ -1,0 +1,92 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Back Button Icon -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+    android:background="?android:selectableItemBackground"
+    android:layout_gravity="start" />
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ECM"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Election Commission of Manipal"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <!-- Image (Ballot Box) -->
+    <ImageView
+        android:id="@+id/ballotImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_vote_box"
+    android:layout_marginTop="24dp" />
+
+    <!-- Slogan Text -->
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Vote, Your Voice, Your Campus"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <!-- Enter as Admin Button -->
+    <Button
+        android:id="@+id/enterAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter as Admin"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp" />
+
+    <!-- Enter as Candidate Button -->
+    <Button
+        android:id="@+id/enterCandidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter as Candidate"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#2196F3"
+        android:layout_marginTop="8dp"
+        android:strokeColor="#2196F3" />
+
+    <!-- Enter as Voter Button -->
+    <Button
+        android:id="@+id/enterVoter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter as Voter"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#2196F3"
+        android:layout_marginTop="8dp"
+        android:strokeColor="#2196F3" />
+
+</LinearLayout>
